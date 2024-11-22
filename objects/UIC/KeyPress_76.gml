@@ -2,8 +2,8 @@
 // You can write your code in this editor
 //var file = file_text_open_read("C:/GitHub/Zedegri_Combat_Gamemaker/datafiles/Save_Data.txt");
 
-
-var file = file_text_open_read("C:/GitHub/Zedegri_Combat_Gamemaker/datafiles/config.json");
+var filename = working_directory + "config.json";
+var file = file_text_open_read(filename);
 var temporary = file_text_read_string(file);
 file_text_close(file);
 var Configuration = json_parse(temporary);
@@ -19,8 +19,8 @@ global.Mass_Deactivate = false;
 //show_debug_message("The Player Level is: {0}", global.level);
 show_debug_message(floor(global.level / 10));
 
-
-var file = file_text_open_read("C:/GitHub/Zedegri_Combat_Gamemaker/datafiles/Save_Data.txt");
+filename = working_directory + "Save_Data.txt";
+file = file_text_open_read(filename);
 
 var Human_Unlock = file_text_readln(file);
 var Zedegri_Unlock = file_text_readln(file);

@@ -23,11 +23,11 @@ if draw_ether_menu == true{
 	draw_set_font(font_arial);
 }
 
-if draw_assist_screen == true{
+if draw_assist_screen == true { // Boosts ally EVA
 	draw_text_outlined(638, 320, c_black, c_white, "Assist Teammate: \nSelect 2 for Teammate 2, or select 3 for Teammate 3.");
 }
 
-if draw_buff_screen == true{
+if draw_buff_screen == true { // Boosts ally DMG
 	draw_text(638, 320, "Buff A Teammate: \nSelect 1 for Teammate 1, select 2 for Teammate 2, or select 3 for Teammate 3.");
 }
 

@@ -10,7 +10,7 @@ if disabled_selection == false{
 		if string(analysis[0]) == scene_code{
 			var	enemy_count = array_length(scene[i]) - 2;
 			scene_array = scene[i];
-			break
+			break;
 			//global.enemy_members[0] = scene[1];
 		}
 	}
