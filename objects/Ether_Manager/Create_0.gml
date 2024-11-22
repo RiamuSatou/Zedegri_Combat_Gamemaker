@@ -12,7 +12,7 @@ jc_ether = [
     [2, "Spirit Splinter", "Targetting the head, dazing the enemy and resetting their time", 2,(50 + Universal_Player_Stat_Manager.all_character_array[0][5])*LM , 7], //Target Daze Norm does not effect Zedegri's
 //	[3, "Battle Spirit", "Jacob gains a focused aura around themselves, increasing defence", 1, 0, "D1,10"],
 //	[4, "Energy Fragmentation", "Jacob focuses their strike to stagger the energy flow of a Zedegri", 4, (200 + Universal_Player_Stat_Manager.all_character_array[0][7])*LM, 1],
-//	[5, "Enchanted Lineage", "Jacob channels their inner Ether for 2X defence", 4, 0, "D2,06"], //unlocked after meeting Fiora and learning that you're a Dara >:3
+//	[5, "Enchanted Lineage", "Jacob channels their inner Ether for 2X defence", 4, 0, "D2,06"], //unlocked after meeting WHOOPSIE~ and learning that you're >:3
 ];
 el_ether = [
     [1, "Ether Channel", "Increase the attack of a Teammate or Yourself", 3, 0, "E1,04"],
@@ -52,16 +52,16 @@ fn_ether = [
 jo_ether = [
     [1, "Blood Enhance", "Enhance ones strength at the cost of damage",2,50*LM, ["A",true,50]],
 	[2, "Shatter Strike", "A strong strike which breaks the enemies defence", 2, (80 + Universal_Player_Stat_Manager.all_character_array[13][7])*LM, "D0,05"],
-//	[3, "Limit Break Slash", "Joanna focuses their ether into one attack, deals self damage", 3, (500 + Universal_Player_Stat_Manager.all_character_array[13][7])*LM, "RECOIL"],
-//	[4, "Vital Point Exploit", "Joanna attacks a vital point, chance to instantly kill", 4, 0, "I20"],
-//	[5, "Enchanted Lineage", "Joanna channels their inner Ether for 2X damage", 4, 0, "E2,06"],
+//	[3, "Limit Break Slash", "She focuses their ether into one attack, deals self damage", 3, (500 + Universal_Player_Stat_Manager.all_character_array[13][7])*LM, "RECOIL"],
+//	[4, "Vital Point Exploit", "She attacks a vital point, chance to instantly kill", 4, 0, "I20"],
+//	[5, "Enchanted Lineage", "She channels their inner Ether for 2X damage", 4, 0, "E2,06"], same name different game
 ];
-fi_ether = [
-	[1, "Acceleration", "Fiora increases their speed so they can attack faster", 3, 0, ["S",true,2]],
-	[2, "Crimson Onnistrike", "Fiora releases a flurry of slashes at a target", 2, (320+Universal_Player_Stat_Manager.all_character_array[14][7])*LM, "ATK"],
-//	[3, "Blood Leech", "Fiora leeches the Ether out of a target, healing themselves", 1, (100+Universal_Player_Stat_Manager.all_character_array[14][7])*LM, "L"],
-//  [4, "Bloodborne Defence", "Fiora blesses a teammate, granting them 1.5x defence", 4, 0, "D1,10"],
-//	[5, "Bloodborne Attack", "Fiora blesses a teammate, granting them 1.5x damage", 4, 0, "E1,10"]
+zm_ether = [
+	[1, "Acceleration", "They increases their speed so they can attack faster", 3, 0, ["S",true,2]],
+	[2, "Crimson Onnistrike", "They releases a flurry of slashes at a target", 2, (320+Universal_Player_Stat_Manager.all_character_array[14][7])*LM, "ATK"],
+//	[3, "Blood Leech", "They leeches the Ether out of a target, healing themselves", 1, (100+Universal_Player_Stat_Manager.all_character_array[14][7])*LM, "L"],
+//  [4, "Bloodborne Defence", "They blesses a teammate, granting them 1.5x defence", 4, 0, "D1,10"],
+//	[5, "Bloodborne Attack", "They blesses a teammate, granting them 1.5x damage", 4, 0, "E1,10"]
 ];
 jz_ether = [
     [1, "Omega Power Driver", "Power driver, but more.", 1, (500 + Universal_Player_Stat_Manager.all_character_array[6][7])*LM, "ATK"],
@@ -131,7 +131,7 @@ am_ether = [
 	[2, "Celestial Blessing", "Harnessing the power of light, they heal themselves", 1, 0, "H10"],
 //	[3, "Ultraviolet Beam", "Amaterasu summons a pillar of energy to burn the enemies, deals self damage", 5, (1000 + Universal_Player_Stat_Manager.all_character_array[18][7])*LM, "RECOIL"],
 //	[4, "Strengthening Light", "Amaterasu shines a warm light onto a teammate, increasing their MAX ATK.",3,0,["A", false, 30]],
-//	[5, "Enchanted Lineage", "Joanna channels their inner Ether for 2X damage", 4, 0, "E2,06"]
+//	[5, "Enchanted Lineage", "Soldier channels their inner Ether for 2X damage", 4, 0, "E2,06"]
 ];
 ts_ether = [
     [1, "Child of Fear","Tsukuyomi creates an illusion, and lands a strong attack.", 1, Universal_Player_Stat_Manager.all_character_array[19][7]*LM*1.5, "ATK"], //ATK

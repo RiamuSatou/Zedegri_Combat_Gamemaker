@@ -45,13 +45,13 @@ if      Fiona_Available and option_selector == 0{ draw_text(640,y_automator,stri
 else if Fiona_Available and option_selector == 1{ draw_text(640,y_automator,string("Fiona: {0}",FN_AMR.name)); y_automator += y_offset;}
 else if Fiona_Available and option_selector == 2{ draw_text(640,y_automator,string("Fiona: {0}",FN_CRM.name)); y_automator += y_offset;}
 
-if      Joanna_Available and option_selector == 0{ draw_text(640,y_automator,string("Joanna: {0}",JO_WPN.name)); y_automator += y_offset;}
-else if Joanna_Available and option_selector == 1{ draw_text(640,y_automator,string("Joanna: {0}",JO_AMR.name)); y_automator += y_offset;}
-else if Joanna_Available and option_selector == 2{ draw_text(640,y_automator,string("Joanna: {0}",JO_CRM.name)); y_automator += y_offset;}
+if      JO_Available and option_selector == 0{ draw_text(640,y_automator,string("Soldier: {0}",JO_WPN.name)); y_automator += y_offset;}
+else if JO_Available and option_selector == 1{ draw_text(640,y_automator,string("Soldier: {0}",JO_AMR.name)); y_automator += y_offset;}
+else if JO_Available and option_selector == 2{ draw_text(640,y_automator,string("Soldier: {0}",JO_CRM.name)); y_automator += y_offset;}
 
-if      Fiora_Available and option_selector == 0{ draw_text(640,y_automator,string("Fiora: {0}",FI_WPN.name)); y_automator += y_offset;}
-else if Fiora_Available and option_selector == 1{ draw_text(640,y_automator,string("Fiora: {0}",FI_AMR.name)); y_automator += y_offset;}
-else if Fiora_Available and option_selector == 2{ draw_text(640,y_automator,string("Fiora: {0}",FI_CRM.name)); y_automator += y_offset;}
+if      Spoiler_Available and option_selector == 0{ draw_text(640,y_automator,string("Spoiler: {0}",ZM_WPN.name)); y_automator += y_offset;} 
+else if Spoiler_Available and option_selector == 1{ draw_text(640,y_automator,string("Spoiler: {0}",ZM_AMR.name)); y_automator += y_offset;}
+else if Spoiler_Available and option_selector == 2{ draw_text(640,y_automator,string("Spoiler: {0}",ZM_CRM.name)); y_automator += y_offset;}
 }
 else if Zedegri_Toggle{
 if      JJA and option_selector == 0{ draw_text(640,y_automator,string("Jizo: {0}",JZ_WPN.name)); y_automator += y_offset;}	

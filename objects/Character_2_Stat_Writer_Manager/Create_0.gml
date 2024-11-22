@@ -76,9 +76,9 @@ else if stat_block[0] == "FN"{
 	ether_array = Ether_Manager.fn_ether;
 	assisted_boost = Universal_Player_Stat_Manager.fiona_assist;
 }
-else if stat_block[0] == "FI"{
-	ether_array = Ether_Manager.fi_ether;
-	assisted_boost = Universal_Player_Stat_Manager.fiora_assist;
+else if stat_block[0] == "ZM"{
+	ether_array = Ether_Manager.zm_ether;
+	assisted_boost = Universal_Player_Stat_Manager.spoiler_assist;
 }
 else if stat_block[0] == "HA"{
 	ether_array = Ether_Manager.ha_ether;
@@ -98,7 +98,7 @@ else if stat_block[0] == "JZ"{
 }
 else if stat_block[0] == "JO"{
 	ether_array = Ether_Manager.jo_ether;
-	assisted_boost = Universal_Player_Stat_Manager.joanna_assist;
+	assisted_boost = Universal_Player_Stat_Manager.jo_assist;
 }
 else if stat_block[0] == "KI"{
 	ether_array = Ether_Manager.ki_ether;

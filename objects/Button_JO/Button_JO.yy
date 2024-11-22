@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"Button_Joanna",
+  "%Name":"Button_JO",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -8,7 +8,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Button_Joanna",
+  "name":"Button_JO",
   "overriddenProperties":[],
   "parent":{
     "name":"Buttons",
@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"ZH_Joanna",
-    "path":"sprites/ZH_Joanna/ZH_Joanna.yy",
+    "name":"ZH_JO",
+    "path":"sprites/ZH_JO/ZH_JO.yy",
   },
   "spriteMaskId":null,
   "visible":true,

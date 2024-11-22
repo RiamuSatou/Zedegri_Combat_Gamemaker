@@ -35,8 +35,8 @@ if string_char_at(Human_Unlock,3) == 1{Doc_Available    = 1;}
 if string_char_at(Human_Unlock,4) == 1{Abby_Available   = 1;}
 if string_char_at(Human_Unlock,5) == 1{Azin_Available   = 1;}
 if string_char_at(Human_Unlock,6) == 1{Fiona_Available  = 1;}
-if string_char_at(Human_Unlock,7) == 1{Joanna_Available = 1;}
-if string_char_at(Human_Unlock,8) == 1{Fiora_Available  = 1;}
+if string_char_at(Human_Unlock,7) == 1{JO_Available = 1;}
+if string_char_at(Human_Unlock,8) == 1{Spoiler_Available  = 1;}
 //Zedegri Unlock Process
 //JJA = 0; JTA = 0;EKA = 0; EMA = 0; EHA = 0;DTA = 0;ASA = 0; ALA = 0;AHA = 0; FAA = 0;JAA = 0; 
 if string_char_at(Zedegri_Unlock,1) == 1{JJA = 1;}
@@ -65,7 +65,7 @@ EL_WPN = Assign_Item(All_Saved_Items, Ella_Weapons);
 EL_AMR = Assign_Item(All_Saved_Items, All_Armour);
 EL_CRM = Assign_Item(All_Saved_Items, Charms_And_Sequencers);
 
-DC_WPN=Assign_Item(All_Saved_Items, Gibbor_Weapons        );
+DC_WPN=Assign_Item(All_Saved_Items, Doc_Weapons        );
 DC_AMR=Assign_Item(All_Saved_Items, All_Armour            );
 DC_CRM=Assign_Item(All_Saved_Items, Charms_And_Sequencers );
 
@@ -81,13 +81,13 @@ FN_WPN=Assign_Item(All_Saved_Items, Fiona_Weapons         );
 FN_AMR=Assign_Item(All_Saved_Items, All_Armour            );
 FN_CRM=Assign_Item(All_Saved_Items, Charms_And_Sequencers );
 
-JO_WPN=Assign_Item(All_Saved_Items, Joanna_Weapons        );
+JO_WPN=Assign_Item(All_Saved_Items, Soldier_Weapons        );
 JO_AMR=Assign_Item(All_Saved_Items, All_Armour            );
 JO_CRM=Assign_Item(All_Saved_Items, Charms_And_Sequencers );
 
-FI_WPN=Assign_Item(All_Saved_Items, Fiora_Weapons         );
-FI_AMR=Assign_Item(All_Saved_Items, All_Armour            );
-FI_CRM=Assign_Item(All_Saved_Items, Charms_And_Sequencers );
+ZM_WPN=Assign_Item(All_Saved_Items, Spoiler_Weapons         );
+ZM_AMR=Assign_Item(All_Saved_Items, All_Armour            );
+ZM_CRM=Assign_Item(All_Saved_Items, Charms_And_Sequencers );
 
 JZ_WPN=Assign_Item(All_Saved_Items, Jizo_Tsuku_Weapons    );
 JZ_CRM=Assign_Item(All_Saved_Items, Charms_And_Sequencers );

@@ -8,8 +8,8 @@ Doc_Available =    0;
 Abby_Available =   0;
 Azin_Available =   0;
 Fiona_Available =  0;
-Joanna_Available = 0;
-Fiora_Available =  0;
+JO_Available = 0;
+Spoiler_Available =  0;
 
 JJA = 0; //Jizo
 JTA = 0; //Tsukuyomi
@@ -60,7 +60,7 @@ Jacob_Weapons = [
 	DEF: 10,
 	SPD: 0,
 	HP: 0,
-	Copies: 0,
+	Copies: 1,
 },
 {	name: "Desert Gauntlets",
 	type: specific,
@@ -175,7 +175,7 @@ Ella_Weapons = [
 	DEF: 20,
 	SPD: 0,
 	HP: 50,
-	Copies: 0,
+	Copies: 1,
 },
 {	name: "Stone Staff",
 	type: specific,
@@ -283,7 +283,7 @@ Ella_Weapons = [
 }
 ];
 specific = "Surface Sword";
-Gibbor_Weapons = [
+Doc_Weapons = [
 {	name: "Unarmed",
 	type: "Unarmed",
 	ATK: 0,
@@ -298,7 +298,7 @@ Gibbor_Weapons = [
 	DEF: 10,
 	SPD: 01,
 	HP: 0,
-	Copies: 0,
+	Copies: 1,
 },
 {	name: "Polished Sword",
 	type: specific,
@@ -1161,7 +1161,7 @@ Anfang_Weapons = [
 }
 ];
 specific = "Energy Rapier";
-Joanna_Weapons = [
+Soldier_Weapons = [
 {	name: "Unarmed",
 	type: "Unarmed",
 	ATK: 0,
@@ -1215,7 +1215,7 @@ Amaterasu_Weapons = [
 }
 ];
 specific = "Energy Dagger";
-Fiora_Weapons = [
+Spoiler_Weapons = [
 {	name: "Unarmed",
 	type: "Unarmed",
 	ATK: 0,
@@ -1257,7 +1257,7 @@ All_Armour = [
 	DEF: 10,
 	SPD: 0,
 	HP: 0,
-	Copies: 0,
+	Copies:2,
 },
 {	name: "Adventurer Cloak",
 	type: "Unisex",
@@ -1265,7 +1265,7 @@ All_Armour = [
 	DEF: 20,
 	SPD: 0,
 	HP: 0,
-	Copies: 0,
+	Copies: 1,
 },
 {	name: "Desert Face Wrap",
 	type: "Unisex",
@@ -1851,15 +1851,15 @@ Charms_And_Sequencers = [
 
 Jacob_Available = 0; Ella_Available = 0; Doc_Available = 0; Abby_Available = 0; Azin_Available = 0; Fiona_Available = 0; Joanna_Available = 0; Fiora_Available = 0;
 
-JC_WPN = Jacob_Weapons[0];         AB_WPN = Abby_Weapons[1];          JO_WPN = Joanna_Weapons[1];
+JC_WPN = Jacob_Weapons[0];         AB_WPN = Abby_Weapons[1];          JO_WPN = Soldier_Weapons[1];
 JC_AMR = All_Armour[0];            AB_AMR = All_Armour[0];            JO_AMR = All_Armour[0];
 JC_CRM = Charms_And_Sequencers[0]; AB_CRM = Charms_And_Sequencers[0]; JO_CRM = Charms_And_Sequencers[0];
 
-EL_WPN = Ella_Weapons[0];          AZ_WPN = Azin_Weapons[1];          FI_WPN = Fiora_Weapons[1];
-EL_AMR = All_Armour[0];            AZ_AMR = All_Armour[0];            FI_AMR = All_Armour[0];
-EL_CRM = Charms_And_Sequencers[0]; AZ_CRM = Charms_And_Sequencers[0]; FI_CRM = Charms_And_Sequencers[0];
+EL_WPN = Ella_Weapons[0];          AZ_WPN = Azin_Weapons[1];          ZM_WPN = Spoiler_Weapons[1];
+EL_AMR = All_Armour[0];            AZ_AMR = All_Armour[0];            ZM_AMR = All_Armour[0];
+EL_CRM = Charms_And_Sequencers[0]; AZ_CRM = Charms_And_Sequencers[0]; ZM_CRM = Charms_And_Sequencers[0];
 
-DC_WPN = Gibbor_Weapons[0];        FN_WPN = Fiona_Weapons[0];
+DC_WPN = Doc_Weapons[0];        FN_WPN = Fiona_Weapons[0];
 DC_AMR = All_Armour[0];            FN_AMR = All_Armour[0];
 DC_CRM = Charms_And_Sequencers[0]; FN_CRM = Charms_And_Sequencers[0];
 

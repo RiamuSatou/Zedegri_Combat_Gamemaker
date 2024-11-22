@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"Button_Fiora",
+  "%Name":"Button_Spoiler",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -8,7 +8,7 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"Button_Fiora",
+  "name":"Button_Spoiler",
   "overriddenProperties":[],
   "parent":{
     "name":"Buttons",
@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"ZH_Fiora",
-    "path":"sprites/ZH_Fiora/ZH_Fiora.yy",
+    "name":"ZH_Spoiler",
+    "path":"sprites/ZH_Spoiler/ZH_Spoiler.yy",
   },
   "spriteMaskId":null,
   "visible":true,

@@ -1,3 +1,3 @@
-11000000
-00000000000
-Unarmed,Unarmed,No Charm,Unarmed,Unarmed,No Charm,Unarmed,Unarmed,No Charm,Model EK15,Unarmed,No Charm,Reliable Whips,Unarmed,No Charm,Unarmed,Unarmed,No Charm,Sempiternal Rapier,Unarmed,No Charm,Ether Dagger,Unarmed,No Charm,Unarmed,No Sequencer,Unarmed,No Sequencer,Unarmed,No Sequencer,Unarmed,No Sequencer,Unarmed,No Sequencer,Unarmed,No Sequencer,Mk. XXIV Screamer Edge,No Sequencer,Unarmed,No Sequencer,Galvanised Spirit,No Sequencer,Unarmed,No Sequencer,Ark Rapier,No Sequencer
+11100000
+10100000000
+Studded Gauntlet,Common Wear,No Charm,Makeshift Staff,Common Wear,No Charm,Stable Sword,Adventurer Cloak,No Charm,Model EK15,Unarmed,No Charm,Reliable Whips,Unarmed,No Charm,Unarmed,Unarmed,No Charm,Sempiternal Rapier,Unarmed,No Charm,Ether Dagger,Unarmed,No Charm,Unarmed,No Sequencer,Unarmed,No Sequencer,Unarmed,No Sequencer,Unarmed,No Sequencer,Unarmed,No Sequencer,Unarmed,No Sequencer,Mk. XXIV Screamer Edge,No Sequencer,Unarmed,No Sequencer,Galvanised Spirit,No Sequencer,Unarmed,No Sequencer,Ark Rapier,No Sequencer

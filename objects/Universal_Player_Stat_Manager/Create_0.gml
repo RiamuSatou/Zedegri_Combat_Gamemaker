@@ -22,9 +22,9 @@ JO_WPN = json_to_array(UIC.JO_WPN); AM_WPN = json_to_array(UIC.AM_WPN);
 JO_AMR = json_to_array(UIC.JO_AMR);
 JO_CRM = json_to_array(UIC.JO_CRM); AM_CRM = json_to_array(UIC.AM_CRM);
 
-FI_WPN = json_to_array(UIC.FI_WPN); 
-FI_AMR = json_to_array(UIC.FI_AMR);
-FI_CRM = json_to_array(UIC.FI_CRM); 
+ZM_WPN = json_to_array(UIC.ZM_WPN); 
+ZM_AMR = json_to_array(UIC.ZM_AMR);
+ZM_CRM = json_to_array(UIC.ZM_CRM); 
 
 MI_WPN = json_to_array(UIC.MI_WPN); SO_WPN = json_to_array(UIC.SO_WPN); HA_WPN = json_to_array(UIC.HA_WPN); TS_WPN = json_to_array(UIC.TS_WPN);
 MI_CRM = json_to_array(UIC.MI_CRM); SO_CRM = json_to_array(UIC.SO_CRM); HA_CRM = json_to_array(UIC.HA_CRM); TS_CRM = json_to_array(UIC.TS_CRM);
@@ -95,10 +95,10 @@ JOD =  JO_WPN[1] + JO_AMR[1] + JO_CRM[1];
 JOS =  JO_WPN[2] + JO_AMR[2] + JO_CRM[2];
 JOH =  JO_WPN[3] + JO_AMR[3] + JO_CRM[3];
 
-FIA =  FI_WPN[0] + FI_AMR[0] + FI_CRM[0];
-FID =  FI_WPN[1] + FI_AMR[1] + FI_CRM[1];
-FIS =  FI_WPN[2] + FI_AMR[2] + FI_CRM[2];
-FIH =  FI_WPN[3] + FI_AMR[3] + FI_CRM[3];
+ZMA =  ZM_WPN[0] + ZM_AMR[0] + ZM_CRM[0];
+ZMD =  ZM_WPN[1] + ZM_AMR[1] + ZM_CRM[1];
+ZMS =  ZM_WPN[2] + ZM_AMR[2] + ZM_CRM[2];
+ZMH =  ZM_WPN[3] + ZM_AMR[3] + ZM_CRM[3];
 
 MIA =  MI_WPN[0] + MI_CRM[0];
 MID =  MI_WPN[1] + MI_CRM[1];
@@ -140,8 +140,8 @@ all_character_array = [
  ["HD","Heremothr",1260+HDH, 5, 40+HDS, 117+HDA, 200+HDA, 290+HDA, ceil(066*LM),    1],//10
  ["FN","Fiona",    78+FNH,  12, 55+FNS, 09+FNA,  18+FNA,  29+FNA,  00+FND, 0],//11
  ["AF","Anfang",   1490+AFH, 8, 55+AFS, 085+AFA, 125+AFA, 180+AFA, ceil(180*LM),    2],//12
- ["JO","Joanna",   120+JOH,  6, 60+JOS, 19+JOA,  24+JOA,  48+JOA,  50+JOD, 0],//13
- ["FI","Fiora",    80+FIH,   6, 45+FIS, 20+FIA,  40+FIA,  60+FIA,  00+FID, 0],//14
+ ["JO","Soldier",  120+JOH,  6, 60+JOS, 19+JOA,  24+JOA,  48+JOA,  50+JOD, 0],//13
+ ["ZM","NoPeaking",80+ZMH,   6, 45+ZMS, 20+ZMA,  40+ZMA,  60+ZMA,  00+ZMD, 0],//14
  ["MI","Mika'el",  1320+MIH, 8, 38+MIS, 150+MIA, 190+MIA, 250+MIA, ceil(210*LM),    1],//15
  ["SO","Sol",      1705+SOH, 6, 56+SOS, 175+SOA, 240+SOA, 310+SOA, ceil(500*LM),    2],//16
  ["HA","Haru",     1570+HAH,10, 37+HAS, 160+HAA, 230+HAA, 299+HAA, ceil(250*LM),    2],//17
@@ -162,12 +162,12 @@ suri_assist = abby_assist;
 here_assist = azin_assist;
 fiona_assist = 26.8;
 anfang_assist = 26.9;
-joanna_assist = 18.5;
-fiora_assist = 26;
+jo_assist = 18.5;
+spoiler_assist = 26;
 mik_assist = ella_assist;
 sol_assist = abby_assist;
 haru_assist = ella_assist;
-ama_assist = joanna_assist;
+ama_assist = jo_assist;
 tsuku_assist = jacob_assist;
 
 all_enemy_array = [//                        |2 = doen't happen

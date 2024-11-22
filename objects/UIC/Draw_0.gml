@@ -62,17 +62,17 @@ if Zedegri_Toggle == false{
 		draw_text(x,yy,"Fiona");
 		character_hovered = "Fiona";}
 	} yy += 32; draw_set_color(c_white);
-	if Joanna_Available{
-		draw_text(x,yy,"Joanna");
+	if JO_Available{
+		draw_text(x,yy,"Soldier");
 		if character_selector == (yy-y)/32{draw_set_color(c_red);
-		draw_text(x,yy,"Joanna");	
-		character_hovered = "Joanna";}
+		draw_text(x,yy,"Soldier");	
+		character_hovered = "Soldier";}
 	} yy += 32; draw_set_color(c_white);
-	if Fiora_Available{
-		draw_text(x,yy,"Fiora");
+	if Spoiler_Available{
+		draw_text(x,yy,"Spoiler");
 		if character_selector == (yy-y)/32{draw_set_color(c_red);
-		draw_text(x,yy,"Fiora");
-		character_hovered = "Fiora";}
+		draw_text(x,yy,"Spoiler");
+		character_hovered = "Spoiler";}
 	} yy += 32; draw_set_color(c_white);
 }
 else if Zedegri_Toggle == true{
@@ -201,11 +201,11 @@ else if character_hovered == "Azin"{
 else if character_hovered == "Fiona"{
 	Weapon_Array = Fiona_Weapons;	Gender_Specs = "Female"; Species_Specs ="Human";
 }
-else if character_hovered == "Joanna"{
-	Weapon_Array = Joanna_Weapons;	Gender_Specs = "Female"; Species_Specs ="Human";
+else if character_hovered == "Soldier"{
+	Weapon_Array = Soldier_Weapons;	Gender_Specs = "Female"; Species_Specs ="Human";
 }
-else if character_hovered == "Fiora"{
-	Weapon_Array = Fiora_Weapons;	Gender_Specs = "Female"; Species_Specs ="Human";
+else if character_hovered == "Spoiler"{
+	Weapon_Array = Spoiler_Weapons;	Gender_Specs = "Female"; Species_Specs ="Human";
 }
 
 else if character_hovered == "Jizo"{
@@ -337,23 +337,23 @@ if selector_x == 2{
 		else if character_hovered == "Fiona" and option_selector == 2{
 			FN_CRM = documented_list[item_selector];
 		}
-		else if character_hovered == "Joanna" and option_selector == 0{
+		else if character_hovered == "Soldier" and option_selector == 0{
 			JO_WPN = documented_list[item_selector];
 		}
-		else if character_hovered == "Joanna" and option_selector == 1{
+		else if character_hovered == "Soldier" and option_selector == 1{
 			JO_AMR = documented_list[item_selector];
 		}
-		else if character_hovered == "Joanna" and option_selector == 2{
+		else if character_hovered == "Soldier" and option_selector == 2{
 			JO_CRM = documented_list[item_selector];
 		}
-		else if character_hovered == "Fiora" and option_selector == 0{
-			FI_WPN = documented_list[item_selector];
+		else if character_hovered == "Spoiler" and option_selector == 0{
+			ZM_WPN = documented_list[item_selector];
 		}
-		else if character_hovered == "Fiora" and option_selector == 1{
-			FI_AMR = documented_list[item_selector];
+		else if character_hovered == "Spoiler" and option_selector == 1{
+			ZM_AMR = documented_list[item_selector];
 		}
-		else if character_hovered == "Fiora" and option_selector == 2{
-			FI_CRM = documented_list[item_selector];
+		else if character_hovered == "Spoiler" and option_selector == 2{
+			ZM_CRM = documented_list[item_selector];
 		}
 		
 		else if character_hovered == "Jizo" and option_selector == 0{
