@@ -38,14 +38,14 @@ function Compare_And_Draw(chara_name, y_pos, item_name){
 				draw_circle(990, y_pos+14,5,false);
 			}
 		}
-		else if chara_name == "Joanna" {
+		else if chara_name == "Soldier" {
 			if item_name == JO_WPN.name or item_name == JO_AMR.name or item_name == JO_CRM.name {
 				draw_set_color($e364e1);
 				draw_circle(990, y_pos+14,5,false);
 			}
 		}
-		else if chara_name == "Fiora" {
-			if item_name == FI_WPN.name or item_name == FI_AMR.name or item_name == FI_CRM.name {
+		else if chara_name == "Spoiler" {
+			if item_name == ZM_WPN.name or item_name == ZM_AMR.name or item_name == ZM_CRM.name {
 				draw_set_color($a213d6);
 				draw_circle(990, y_pos+14,5,false);
 			}
