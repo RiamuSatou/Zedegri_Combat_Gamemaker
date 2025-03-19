@@ -33,9 +33,13 @@ if      Doc_Available and option_selector == 0{ draw_text(640,y_automator,string
 else if Doc_Available and option_selector == 1{ draw_text(640,y_automator,string("Doc: {0}",DC_AMR.name)); y_automator += y_offset;}
 else if Doc_Available and option_selector == 2{ draw_text(640,y_automator,string("Doc: {0}",DC_CRM.name)); y_automator += y_offset;}
 
-if      Abby_Available and option_selector == 0{ draw_text(640,y_automator,string("Abby: {0}",AB_WPN.name)); y_automator += y_offset;}
-else if Abby_Available and option_selector == 1{ draw_text(640,y_automator,string("Abby: {0}",AB_AMR.name)); y_automator += y_offset;}
-else if Abby_Available and option_selector == 2{ draw_text(640,y_automator,string("Abby: {0}",AB_CRM.name)); y_automator += y_offset;}
+if      Abby_Available == 1 and option_selector == 0{ draw_text(640,y_automator,string("Abby: {0}",AB_WPN.name)); y_automator += y_offset;}
+else if Abby_Available == 1and option_selector == 1{ draw_text(640,y_automator,string("Abby: {0}",AB_AMR.name)); y_automator += y_offset;}
+else if Abby_Available == 1and option_selector == 2{ draw_text(640,y_automator,string("Abby: {0}",AB_CRM.name)); y_automator += y_offset;}
+
+if      Abby_Available == 2 and option_selector == 0{ draw_text(640,y_automator,string("Anna: {0}",AB_WPN.name)); y_automator += y_offset;}
+else if Abby_Available == 2 and option_selector == 1{ draw_text(640,y_automator,string("Anna: {0}",AB_AMR.name)); y_automator += y_offset;}
+else if Abby_Available == 2 and option_selector == 2{ draw_text(640,y_automator,string("Anna: {0}",AB_CRM.name)); y_automator += y_offset;}
 
 if      Azin_Available and option_selector == 0{ draw_text(640,y_automator,string("Azin: {0}",AZ_WPN.name)); y_automator += y_offset;}
 else if Azin_Available and option_selector == 1{ draw_text(640,y_automator,string("Azin: {0}",AZ_AMR.name)); y_automator += y_offset;}

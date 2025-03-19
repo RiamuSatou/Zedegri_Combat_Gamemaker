@@ -19,6 +19,11 @@ if room == Room_Ini or room = Room_Player_Select{
 		change_made = false;
 	}
 	
+	if keyboard_check_pressed(vk_f5) {
+		Abby_Swap = not Abby_Swap;
+		change_made = false;
+	}
+	
 if change_made == false{
 	try{
 		if Jacob_Swap == true{
@@ -35,6 +40,7 @@ if change_made == false{
 			Button_Jacob.button_text = "Jacob";
 			Button_Jacob.sprite_index = Z_Jacob;
 		}
+		
 		if Ella_Swap == true{
 			var ella_array = Universal_Player_Stat_Manager.all_character_array[1];
 			ella_array[1] = "Evan";
@@ -49,6 +55,22 @@ if change_made == false{
 			Button_Ella.button_text = "Ella";
 			Button_Ella.sprite_index = Z_Ella;
 		}
+		
+		if Abby_Swap == true{
+			var abby_array = Universal_Player_Stat_Manager.all_character_array[3];
+			abby_array[1] = "Anna";
+			Universal_Player_Stat_Manager.all_character_array[3] = abby_array;
+			Button_Abby.button_text = "Anna";
+			Button_Abby.sprite_index = Z_Anna;
+		}
+		else if Abby_Swap == false{
+			var abby_array = Universal_Player_Stat_Manager.all_character_array[3];
+			abby_array[1] = "Abby";
+			Universal_Player_Stat_Manager.all_character_array[3] = abby_array;
+			Button_Abby.button_text = "Abby";
+			Button_Abby.sprite_index = Z_Abby;
+		}
+		
 		change_made = true;
 	}
 	catch(_exception){
@@ -64,6 +86,13 @@ if change_made == false{
 		}
 		else if Ella_Swap == false{
 			UIC.Ella_Available = 1;	
+		}
+		
+		if Abby_Swap == true {
+			UIC.Abby_Available = 1;
+		}
+		else if Abby_Swap == false {
+			UIC.Abby_Available = 2;
 		}
 		change_made = true;
 	}

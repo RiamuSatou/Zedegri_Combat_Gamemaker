@@ -105,6 +105,7 @@
     {"name":"sp_All_Selector","order":17,"path":"sprites/sp_All_Selector/sp_All_Selector.yy",},
     {"name":"Sprite3","order":2,"path":"sprites/Sprite3/Sprite3.yy",},
     {"name":"Textbox","order":1,"path":"sprites/Textbox/Textbox.yy",},
+    {"name":"Z_Anna","order":17,"path":"sprites/Z_Anna/Z_Anna.yy",},
     {"name":"Z_Azin","order":1,"path":"sprites/Z_Azin/Z_Azin.yy",},
     {"name":"Z_Ella","order":2,"path":"sprites/Z_Ella/Z_Ella.yy",},
     {"name":"Z_Evan","order":16,"path":"sprites/Z_Evan/Z_Evan.yy",},

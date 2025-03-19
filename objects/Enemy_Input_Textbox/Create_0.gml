@@ -27,6 +27,11 @@ scene = [
 ["B1", "MZE", "MZE", 5],
 ["B2", "MZM", 15],
 ["B3", "YMB", "YAB", 7],
+["B4", "ZBA", 9],
+["B5", "VCB", 10],
+["B6", "SBE", 10.3],
+["B7", "SKB", "SAB", 0],
+["B8", "SMB", "SGB", 10.5],
 // DIMWOOD FOREST: FLB FTT FSF
 ["D1", "FLB","FTT", 1.8],
 ["D2", "FTT","FTT", 1.8],
@@ -50,4 +55,8 @@ scene = [
 ["LS1", "LOG", 4],
 ["LS2", "LOG", "LOG", 3.2],
 ["LS3", "LOA", "LOG", "LOG", 6],
+// SOLACE INTERIOR
+["S1", "SGN", "SGC", "SGA", 9.8],
+// Paralogue Kaaba
+["P1", "KVM", 5]
 ]

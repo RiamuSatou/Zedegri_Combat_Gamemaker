@@ -1,0 +1,4 @@
+{"speed_cap":6, "level":13, "environmental_damage":0, "player_speed":0.50, "max_ap":4 } 
+22101000
+10100100100
+Enforcer Gauntlets,Vanaheim Jacket,No Charm,Attacker Staff,Vanaheim Jacket,No Charm,Vanaheim Steel Blade,Vanaheim Jacket,No Charm,Model EK15,Desert Face Wrap,No Charm,Reliable Whips,Vanaheim Jacket,No Charm,Unarmed,Unarmed,No Charm,Sempiternal Rapier,Unarmed,No Charm,Ether Dagger,Unarmed,No Charm,Modified Zedegri Gauntlets,Low Output Strength Sequencer,Unarmed,No Sequencer,Megalance V.PRT,Low Output Agility Sequencer,Unarmed,No Sequencer,Unarmed,No Sequencer,Enriched Greatsword,Low Output Vitality Sequencer,Mk. XXIV Screamer Edge,No Sequencer,Unarmed,No Sequencer,Galvanised Spirit,Low Output Strength Sequencer,Unarmed,No Sequencer,Ark Rapier,No Sequencer

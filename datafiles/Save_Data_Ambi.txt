@@ -1,0 +1,4 @@
+{"speed_cap":6, "level":41, "environmental_damage":5, "player_speed":0.50, "max_ap":6 } 
+21011100
+10110010110
+Ancient Gauntlets,Neutral Seawear,Pretty Charm of Fortitude,Staff of the Ocean,Neutral Seawear,Large Charm of the Defender,Cloudbuster Blade,Leather Workboots,Large Charm of the Aggressor,Anna's Legacy,Alluring Headband,Pretty Charm of Vitality,Ocean Snake,Desert Face Wrap,Pretty Charm of Vitality,ATK Ether Amp III,Dancing Dress,Large Charm of the Defender,Sempiternal Rapier,Unarmed,No Charm,Ether Dagger,Unarmed,No Charm,Unshackled Zedegri Gauntlets,Large Output Defence Sequencer,Unarmed,No Sequencer,Megalance V.PRT,Low Output Agility Sequencer,Unarmed,No Sequencer,Unarmed,No Sequencer,Refractory Blade,Low Output Defence Sequencer,Mk. LXII Ascended Edge,Large Output Agility Sequencer,Unarmed,No Sequencer,Mach Velocity Shatterer,Minor Defender Core,Staff of Safety Mk. IV,Minor Defender Core,Ark Rapier,No Sequencer

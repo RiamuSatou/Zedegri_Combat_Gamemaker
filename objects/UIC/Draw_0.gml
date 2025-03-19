@@ -44,11 +44,17 @@ if Zedegri_Toggle == false{
 		draw_text(x,yy,"Doc");	
 		character_hovered = "Doc";}
 	} yy += 32; draw_set_color(c_white);
-	if Abby_Available{
+	if Abby_Available == 1{
 		draw_text(x,yy,"Abby");
 		if character_selector == (yy-y)/32{draw_set_color(c_red);
 		draw_text(x,yy,"Abby");	
 		character_hovered = "Abby";}
+	}
+	else if Abby_Available == 2 {
+		draw_text(x,yy,"Anna");
+		if character_selector == (yy-y)/32{draw_set_color(c_red);
+		draw_text(x,yy,"Anna");	
+		character_hovered = "Anna";}
 	} yy += 32; draw_set_color(c_white);
 	if Azin_Available{
 		draw_text(x,yy,"Azin");
@@ -217,7 +223,7 @@ else if character_hovered == "Tsukuyomi"{
 else if character_hovered == "Kalaratri"{
 	Weapon_Array = KaMiHa_Weapons;		Species_Specs = "Zedegri";	
 }
-else if character_hovered == "Mikael"{
+else if character_hovered == "Mika'el"{
 	Weapon_Array = KaMiHa_Weapons;		Species_Specs = "Zedegri";	
 }
 else if character_hovered == "Haru"{
