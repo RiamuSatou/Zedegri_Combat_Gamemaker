@@ -43,9 +43,9 @@ dc_ether = [
 //	[5, "Energy Syphon", "Doc lowers the enemies defence" 1, (60 + Universal_Player_Stat_Manager.all_character_array[2][7])*LM, "D0,05"],
 ];
 fn_ether = [
-    [1, "Nature's Recovery", "Fiona leeches an enemy's life to heal herself", 2, (80 + Universal_Player_Stat_Manager.all_character_array[11][7])*LM, "L"],
-    [2, "Nature's Revenge", "Fiona summons Anfang for a moment to deal a strong blow", 4, (230 + Universal_Player_Stat_Manager.all_character_array[11][7])*LM, "ATK"],
-	[3, "Nature's Retribution", "Fiona prays to the planet to slow the enemy", 3, (120  + Universal_Player_Stat_Manager.all_character_array[11][7])*LM, 0],
+    [1, "Nature's Recovery", "Fiona leeches an enemy's life to heal herself", 2, (120 + Universal_Player_Stat_Manager.all_character_array[11][7])*LM, "L"],
+    [2, "Nature's Revenge", "Fiona summons Anfang for a moment to deal a strong blow", 4, (240 + Universal_Player_Stat_Manager.all_character_array[11][7])*LM, "ATK"],
+	[3, "Nature's Retribution", "Fiona prays to the planet to slow the enemy", 3, (180  + Universal_Player_Stat_Manager.all_character_array[11][7])*LM, 0],
 	[4, "Nature's Rejuvination", "Fiona creates a protective field around a target", 2, 0, "D2,03"],
 //	[5, "Nature's Storm Soul", "Fiona calls upon the planet to daze enemies larger than herself", 3, (130  + Universal_Player_Stat_Manager.all_character_array[11][7])*LM, 1]
 ];
